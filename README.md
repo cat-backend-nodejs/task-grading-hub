@@ -14,8 +14,8 @@ MongoDB is used as the database management system to store user data, task submi
 
 There are two types of users who will have access to the API:
 
-* **Student**: can upload tasks and check the grades after a task is graded. doesn't have access to other students' grades.
-* **Admin**: can view submitted tasks and grade them.
+* **Student**: can submit tasks within their deadline and check the grades after a task is graded. doesn't have access to other students' grades.
+* **Admin**: can publish new tasks for submission, view submitted tasks and grade them.
 
 ## Authentication and Authorization
 
@@ -54,5 +54,5 @@ The API should be properly documented that developers are able to use it without
 * **Clean Architecture and proper organization of modules (especially in error handling)** (25 pts.)
 * **Clear and straightforward documentations** (10 pts.)
 * **Inclusiveness of unit tests** (10 pts.)
-* **Descreptive Git Commit Messages** (5 pts.)
+* **Descriptive Git Commit Messages** (5 pts.)
 * **Nice Touches** (10 pts. bonus)
